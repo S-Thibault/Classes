@@ -31,17 +31,17 @@ function __construct($a, $b){
 
 }
 
-$cal2 = new Calculatrice(10,5);
-$cal2->addition();
+$cal1 = new Calculatrice(10,5);
+$cal1->addition();
 echo "<br>";
 $cal2 = new Calculatrice(10,5);
 $cal2->soustraction();
 echo "<br>";
-$cal2 = new Calculatrice(10,5);
-$cal2->division();
+$cal3 = new Calculatrice(10,5);
+$cal3->division();
 echo "<br>";
-$cal2 = new Calculatrice(10,5);
-$cal2->multiplication();
+$cal4 = new Calculatrice(10,5);
+$cal4->multiplication();
 
 ?>
 
