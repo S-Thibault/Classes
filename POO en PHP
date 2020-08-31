@@ -20,6 +20,7 @@ une multiplication
 un modulo de 2 chiffres qui lui seront passés en paramètre de ses méthodes
 en revanche je dois pouvoir me servir de ses méthodes sans instancier la classe Calculatrice, trouvez comment 
 
+https://www.php.net/manual/en/language.oop5.static.php
 
 Exercice 3:
 Créez une classe Animal qui ne contiendra qu'une méhode respire() qui fera un simple echo
@@ -27,3 +28,4 @@ puis créez une classe Oiseau et une classe Reptile qui hériteront de la classe
 puis créez une classe Aigle et Faucon, ainsi qu'une classe Tortue et Crocodile ; ces classes hériteront respecivement d'Oiseau et de Reptile.
 Vous instancierez un nouvel Aigle, Faucon, Tortue et Crocodile et ferez en sorte que leur constructeur appelle le constructeur de leur parent afin d'y préciser leur nom et age. Vérifiez ensuite les méthodes de vos instances. 
                                                                                                                                                                                                                               
+https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/oriente-objet-classe-etendue-heritage/
