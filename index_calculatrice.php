@@ -16,8 +16,8 @@ function __construct($a, $b){
   $this->b = $b;
 }
 
-  public function addition(){
-    echo $this->a + $this->b;
+  public static function addition($a, $b){
+    echo $a + $b;
   }
   public function soustraction(){
     echo $this->a - $this->b;
@@ -31,9 +31,9 @@ function __construct($a, $b){
 
 }
 
-$cal1 = new Calculatrice(10,5);
-$cal1->addition();
+Calculatrice::addition(10,5);
 echo "<br>";
+
 $cal2 = new Calculatrice(10,5);
 $cal2->soustraction();
 echo "<br>";
