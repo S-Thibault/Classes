@@ -9,7 +9,8 @@ les attributs :
     annee
 un constructeur,
 les getters et setters associés 
-       
+
+https://www.w3schools.com/php/php_oop_constructor.asp
                                                                                         
 Exercice 2:
 Créez une classe Calculatrice, celle-ci pourra faire
